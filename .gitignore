@@ -26,6 +26,9 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
+#DotEnv not to include
+.env
+
 # node-waf configuration
 .lock-wscript
 
