@@ -1,39 +1,59 @@
 import { useState, useEffect } from 'react'
-import { getGreeting } from '../apiClient.ts'
-import { Link } from 'react-router-dom'
+import {
+  getLatestWeather,
+  getWeather,
+  getTraffic,
+  getRealLatestWeather,
+} from '../apiClient'
+// import { Link } from 'react-router-dom'
 
 function HomePage() {
-  const [greeting, setGreeting] = useState('')
-  const [count, setCount] = useState(0)
-  const [isError, setIsError] = useState(false)
+  const [data, setData] = useState({ weather: {}, traffic: {} })
 
   useEffect(() => {
-    async function updateGreeting() {
+    async function updateData() {
       try {
-        const greeting = await getGreeting()
-        setGreeting(greeting)
-        setIsError(false)
+        const weather = await getLatestWeather()
+        const traffic = await getTraffic([42.8984, 71.398])
+        // const weather = await getRealLatestWeather([42.8984, 71.398])
+
+        setData({
+          weather,
+          traffic,
+        })
       } catch (err) {
-        setIsError(true)
+        console.error(err.message)
       }
     }
 
-    updateGreeting()
-  }, [count])
+    updateData()
+  }, [])
 
+  const { weather, traffic } = data
+
+  console.log(weather.temperature, traffic.currentSpeed)
   return (
     <>
-      {count}
-      <h1>{greeting}</h1>
-      {isError && (
-        <p style={{ color: 'red' }}>
-          There was an error retrieving the greeting.
-        </p>
-      )}
-      <button onClick={() => setCount(count + 1)}>Click</button>
-      <p>
-        <Link to="/frogs/kevin">Is there a frog named Kevin?</Link>
-      </p>
+      <p>{JSON.stringify(traffic)}</p>
+      <ul>
+        <li>{weather.dewPoint} : Dew Point </li>
+        <li>{weather.humidity} : Humidity </li>
+        <li>{weather.iceAccumulation} : Ice Accumulation </li>
+        <li>{weather.precipitationIntensity}: Precipitation Intensity</li>
+        <li>{weather.precipitationProbability} : Precipitation Probability</li>
+        <li>{weather.precipitationType}: Precipitation Type</li>
+        <li>{weather.rainAccumulation}: Rain Accumulation</li>
+        <li>{weather.rainIntensity}: Rain Intensity</li>
+        <li>{weather.snowIntensity}: Snow Intensity</li>
+        <li>{weather.sleetAccumulation} : Sleet Accumulation: </li>
+        <li>{weather.sleetIntensity}: Sleet Intensity</li>
+        <li>{weather.snowAccumulation}: Snow Accumulation</li>
+        <li>{weather.temperature}: Temperature</li>
+        <li>{weather.temperatureApparent}: Temperature Apparent:</li>
+        <li>{weather.windDirection} : Wind Direction</li>
+        <li>{weather.windGust} : Wind Gust</li>
+        <li>{weather.windSpeed} : Wind Speed </li>
+      </ul>
     </>
   )
 }
