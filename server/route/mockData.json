@@ -1,737 +1,2675 @@
 {
-	"timelines": [
-		{
-			"timestep": "1h",
-			"endTime": "2023-11-14T21:00:00Z",
-			"startTime": "2023-11-09T21:00:00Z",
-			"intervals": [
-				{
-					"startTime": "2023-11-09T21:00:00Z",
-					"values": {
-						"temperature": 12.88
-					}
-				},
-				{
-					"startTime": "2023-11-09T22:00:00Z",
-					"values": {
-						"temperature": 12.83
-					}
-				},
-				{
-					"startTime": "2023-11-09T23:00:00Z",
-					"values": {
-						"temperature": 11.18
-					}
-				},
-				{
-					"startTime": "2023-11-10T00:00:00Z",
-					"values": {
-						"temperature": 9.87
-					}
-				},
-				{
-					"startTime": "2023-11-10T01:00:00Z",
-					"values": {
-						"temperature": 9.47
-					}
-				},
-				{
-					"startTime": "2023-11-10T02:00:00Z",
-					"values": {
-						"temperature": 9.23
-					}
-				},
-				{
-					"startTime": "2023-11-10T03:00:00Z",
-					"values": {
-						"temperature": 8.75
-					}
-				},
-				{
-					"startTime": "2023-11-10T04:00:00Z",
-					"values": {
-						"temperature": 7.98
-					}
-				},
-				{
-					"startTime": "2023-11-10T05:00:00Z",
-					"values": {
-						"temperature": 7.37
-					}
-				},
-				{
-					"startTime": "2023-11-10T06:00:00Z",
-					"values": {
-						"temperature": 6.78
-					}
-				},
-				{
-					"startTime": "2023-11-10T07:00:00Z",
-					"values": {
-						"temperature": 6.37
-					}
-				},
-				{
-					"startTime": "2023-11-10T08:00:00Z",
-					"values": {
-						"temperature": 5.84
-					}
-				},
-				{
-					"startTime": "2023-11-10T09:00:00Z",
-					"values": {
-						"temperature": 5.99
-					}
-				},
-				{
-					"startTime": "2023-11-10T10:00:00Z",
-					"values": {
-						"temperature": 6.04
-					}
-				},
-				{
-					"startTime": "2023-11-10T11:00:00Z",
-					"values": {
-						"temperature": 6.13
-					}
-				},
-				{
-					"startTime": "2023-11-10T12:00:00Z",
-					"values": {
-						"temperature": 6.05
-					}
-				},
-				{
-					"startTime": "2023-11-10T13:00:00Z",
-					"values": {
-						"temperature": 7.59
-					}
-				},
-				{
-					"startTime": "2023-11-10T14:00:00Z",
-					"values": {
-						"temperature": 8.72
-					}
-				},
-				{
-					"startTime": "2023-11-10T15:00:00Z",
-					"values": {
-						"temperature": 9.67
-					}
-				},
-				{
-					"startTime": "2023-11-10T16:00:00Z",
-					"values": {
-						"temperature": 10.77
-					}
-				},
-				{
-					"startTime": "2023-11-10T17:00:00Z",
-					"values": {
-						"temperature": 11.36
-					}
-				},
-				{
-					"startTime": "2023-11-10T18:00:00Z",
-					"values": {
-						"temperature": 11.79
-					}
-				},
-				{
-					"startTime": "2023-11-10T19:00:00Z",
-					"values": {
-						"temperature": 12.01
-					}
-				},
-				{
-					"startTime": "2023-11-10T20:00:00Z",
-					"values": {
-						"temperature": 12.14
-					}
-				},
-				{
-					"startTime": "2023-11-10T21:00:00Z",
-					"values": {
-						"temperature": 11.67
-					}
-				},
-				{
-					"startTime": "2023-11-10T22:00:00Z",
-					"values": {
-						"temperature": 10.7
-					}
-				},
-				{
-					"startTime": "2023-11-10T23:00:00Z",
-					"values": {
-						"temperature": 10.05
-					}
-				},
-				{
-					"startTime": "2023-11-11T00:00:00Z",
-					"values": {
-						"temperature": 8.43
-					}
-				},
-				{
-					"startTime": "2023-11-11T01:00:00Z",
-					"values": {
-						"temperature": 7.92
-					}
-				},
-				{
-					"startTime": "2023-11-11T02:00:00Z",
-					"values": {
-						"temperature": 7.49
-					}
-				},
-				{
-					"startTime": "2023-11-11T03:00:00Z",
-					"values": {
-						"temperature": 7.35
-					}
-				},
-				{
-					"startTime": "2023-11-11T04:00:00Z",
-					"values": {
-						"temperature": 6.57
-					}
-				},
-				{
-					"startTime": "2023-11-11T05:00:00Z",
-					"values": {
-						"temperature": 5.42
-					}
-				},
-				{
-					"startTime": "2023-11-11T06:00:00Z",
-					"values": {
-						"temperature": 5.12
-					}
-				},
-				{
-					"startTime": "2023-11-11T07:00:00Z",
-					"values": {
-						"temperature": 5.65
-					}
-				},
-				{
-					"startTime": "2023-11-11T08:00:00Z",
-					"values": {
-						"temperature": 4.88
-					}
-				},
-				{
-					"startTime": "2023-11-11T09:00:00Z",
-					"values": {
-						"temperature": 4.43
-					}
-				},
-				{
-					"startTime": "2023-11-11T10:00:00Z",
-					"values": {
-						"temperature": 3.54
-					}
-				},
-				{
-					"startTime": "2023-11-11T11:00:00Z",
-					"values": {
-						"temperature": 2.8
-					}
-				},
-				{
-					"startTime": "2023-11-11T12:00:00Z",
-					"values": {
-						"temperature": 2.22
-					}
-				},
-				{
-					"startTime": "2023-11-11T13:00:00Z",
-					"values": {
-						"temperature": 4.45
-					}
-				},
-				{
-					"startTime": "2023-11-11T14:00:00Z",
-					"values": {
-						"temperature": 6.73
-					}
-				},
-				{
-					"startTime": "2023-11-11T15:00:00Z",
-					"values": {
-						"temperature": 8.24
-					}
-				},
-				{
-					"startTime": "2023-11-11T16:00:00Z",
-					"values": {
-						"temperature": 9.61
-					}
-				},
-				{
-					"startTime": "2023-11-11T17:00:00Z",
-					"values": {
-						"temperature": 9.92
-					}
-				},
-				{
-					"startTime": "2023-11-11T18:00:00Z",
-					"values": {
-						"temperature": 9.69
-					}
-				},
-				{
-					"startTime": "2023-11-11T19:00:00Z",
-					"values": {
-						"temperature": 10.15
-					}
-				},
-				{
-					"startTime": "2023-11-11T20:00:00Z",
-					"values": {
-						"temperature": 10.02
-					}
-				},
-				{
-					"startTime": "2023-11-11T21:00:00Z",
-					"values": {
-						"temperature": 8.7
-					}
-				},
-				{
-					"startTime": "2023-11-11T22:00:00Z",
-					"values": {
-						"temperature": 6.82
-					}
-				},
-				{
-					"startTime": "2023-11-11T23:00:00Z",
-					"values": {
-						"temperature": 5.59
-					}
-				},
-				{
-					"startTime": "2023-11-12T00:00:00Z",
-					"values": {
-						"temperature": 4.64
-					}
-				},
-				{
-					"startTime": "2023-11-12T01:00:00Z",
-					"values": {
-						"temperature": 3.84
-					}
-				},
-				{
-					"startTime": "2023-11-12T02:00:00Z",
-					"values": {
-						"temperature": 3.17
-					}
-				},
-				{
-					"startTime": "2023-11-12T03:00:00Z",
-					"values": {
-						"temperature": 2.46
-					}
-				},
-				{
-					"startTime": "2023-11-12T04:00:00Z",
-					"values": {
-						"temperature": 1.78
-					}
-				},
-				{
-					"startTime": "2023-11-12T05:00:00Z",
-					"values": {
-						"temperature": 1.13
-					}
-				},
-				{
-					"startTime": "2023-11-12T06:00:00Z",
-					"values": {
-						"temperature": 0.45
-					}
-				},
-				{
-					"startTime": "2023-11-12T07:00:00Z",
-					"values": {
-						"temperature": -0.12
-					}
-				},
-				{
-					"startTime": "2023-11-12T08:00:00Z",
-					"values": {
-						"temperature": -0.53
-					}
-				},
-				{
-					"startTime": "2023-11-12T09:00:00Z",
-					"values": {
-						"temperature": -0.92
-					}
-				},
-				{
-					"startTime": "2023-11-12T10:00:00Z",
-					"values": {
-						"temperature": -1.31
-					}
-				},
-				{
-					"startTime": "2023-11-12T11:00:00Z",
-					"values": {
-						"temperature": -1.12
-					}
-				},
-				{
-					"startTime": "2023-11-12T12:00:00Z",
-					"values": {
-						"temperature": -0.91
-					}
-				},
-				{
-					"startTime": "2023-11-12T13:00:00Z",
-					"values": {
-						"temperature": 0.88
-					}
-				},
-				{
-					"startTime": "2023-11-12T14:00:00Z",
-					"values": {
-						"temperature": 2.95
-					}
-				},
-				{
-					"startTime": "2023-11-12T15:00:00Z",
-					"values": {
-						"temperature": 4.31
-					}
-				},
-				{
-					"startTime": "2023-11-12T16:00:00Z",
-					"values": {
-						"temperature": 5.24
-					}
-				},
-				{
-					"startTime": "2023-11-12T17:00:00Z",
-					"values": {
-						"temperature": 5.98
-					}
-				},
-				{
-					"startTime": "2023-11-12T18:00:00Z",
-					"values": {
-						"temperature": 6.66
-					}
-				},
-				{
-					"startTime": "2023-11-12T19:00:00Z",
-					"values": {
-						"temperature": 7.23
-					}
-				},
-				{
-					"startTime": "2023-11-12T20:00:00Z",
-					"values": {
-						"temperature": 7.48
-					}
-				},
-				{
-					"startTime": "2023-11-12T21:00:00Z",
-					"values": {
-						"temperature": 6.82
-					}
-				},
-				{
-					"startTime": "2023-11-12T22:00:00Z",
-					"values": {
-						"temperature": 6.65
-					}
-				},
-				{
-					"startTime": "2023-11-12T23:00:00Z",
-					"values": {
-						"temperature": 4.18
-					}
-				},
-				{
-					"startTime": "2023-11-13T00:00:00Z",
-					"values": {
-						"temperature": 3.8
-					}
-				},
-				{
-					"startTime": "2023-11-13T01:00:00Z",
-					"values": {
-						"temperature": 3.56
-					}
-				},
-				{
-					"startTime": "2023-11-13T02:00:00Z",
-					"values": {
-						"temperature": 3.64
-					}
-				},
-				{
-					"startTime": "2023-11-13T03:00:00Z",
-					"values": {
-						"temperature": 3.36
-					}
-				},
-				{
-					"startTime": "2023-11-13T04:00:00Z",
-					"values": {
-						"temperature": 3.25
-					}
-				},
-				{
-					"startTime": "2023-11-13T05:00:00Z",
-					"values": {
-						"temperature": 3.17
-					}
-				},
-				{
-					"startTime": "2023-11-13T06:00:00Z",
-					"values": {
-						"temperature": 3.22
-					}
-				},
-				{
-					"startTime": "2023-11-13T07:00:00Z",
-					"values": {
-						"temperature": 3.28
-					}
-				},
-				{
-					"startTime": "2023-11-13T08:00:00Z",
-					"values": {
-						"temperature": 3.01
-					}
-				},
-				{
-					"startTime": "2023-11-13T09:00:00Z",
-					"values": {
-						"temperature": 2.76
-					}
-				},
-				{
-					"startTime": "2023-11-13T10:00:00Z",
-					"values": {
-						"temperature": 2.58
-					}
-				},
-				{
-					"startTime": "2023-11-13T11:00:00Z",
-					"values": {
-						"temperature": 2.44
-					}
-				},
-				{
-					"startTime": "2023-11-13T12:00:00Z",
-					"values": {
-						"temperature": 2.36
-					}
-				},
-				{
-					"startTime": "2023-11-13T13:00:00Z",
-					"values": {
-						"temperature": 3
-					}
-				},
-				{
-					"startTime": "2023-11-13T14:00:00Z",
-					"values": {
-						"temperature": 4.16
-					}
-				},
-				{
-					"startTime": "2023-11-13T15:00:00Z",
-					"values": {
-						"temperature": 5.45
-					}
-				},
-				{
-					"startTime": "2023-11-13T16:00:00Z",
-					"values": {
-						"temperature": 6.61
-					}
-				},
-				{
-					"startTime": "2023-11-13T17:00:00Z",
-					"values": {
-						"temperature": 7.73
-					}
-				},
-				{
-					"startTime": "2023-11-13T18:00:00Z",
-					"values": {
-						"temperature": 8.67
-					}
-				},
-				{
-					"startTime": "2023-11-13T19:00:00Z",
-					"values": {
-						"temperature": 9.29
-					}
-				},
-				{
-					"startTime": "2023-11-13T20:00:00Z",
-					"values": {
-						"temperature": 9.53
-					}
-				},
-				{
-					"startTime": "2023-11-13T21:00:00Z",
-					"values": {
-						"temperature": 9.39
-					}
-				},
-				{
-					"startTime": "2023-11-13T22:00:00Z",
-					"values": {
-						"temperature": 8.84
-					}
-				},
-				{
-					"startTime": "2023-11-13T23:00:00Z",
-					"values": {
-						"temperature": 8.51
-					}
-				},
-				{
-					"startTime": "2023-11-14T00:00:00Z",
-					"values": {
-						"temperature": 8.36
-					}
-				},
-				{
-					"startTime": "2023-11-14T01:00:00Z",
-					"values": {
-						"temperature": 8.04
-					}
-				},
-				{
-					"startTime": "2023-11-14T02:00:00Z",
-					"values": {
-						"temperature": 8.27
-					}
-				},
-				{
-					"startTime": "2023-11-14T03:00:00Z",
-					"values": {
-						"temperature": 7.94
-					}
-				},
-				{
-					"startTime": "2023-11-14T04:00:00Z",
-					"values": {
-						"temperature": 7.38
-					}
-				},
-				{
-					"startTime": "2023-11-14T05:00:00Z",
-					"values": {
-						"temperature": 7.04
-					}
-				},
-				{
-					"startTime": "2023-11-14T06:00:00Z",
-					"values": {
-						"temperature": 6.72
-					}
-				},
-				{
-					"startTime": "2023-11-14T07:00:00Z",
-					"values": {
-						"temperature": 6.43
-					}
-				},
-				{
-					"startTime": "2023-11-14T08:00:00Z",
-					"values": {
-						"temperature": 6.34
-					}
-				},
-				{
-					"startTime": "2023-11-14T09:00:00Z",
-					"values": {
-						"temperature": 6.15
-					}
-				},
-				{
-					"startTime": "2023-11-14T10:00:00Z",
-					"values": {
-						"temperature": 5.78
-					}
-				},
-				{
-					"startTime": "2023-11-14T11:00:00Z",
-					"values": {
-						"temperature": 5.57
-					}
-				},
-				{
-					"startTime": "2023-11-14T12:00:00Z",
-					"values": {
-						"temperature": 6.04
-					}
-				},
-				{
-					"startTime": "2023-11-14T13:00:00Z",
-					"values": {
-						"temperature": 6.76
-					}
-				},
-				{
-					"startTime": "2023-11-14T14:00:00Z",
-					"values": {
-						"temperature": 7.48
-					}
-				},
-				{
-					"startTime": "2023-11-14T15:00:00Z",
-					"values": {
-						"temperature": 8.2
-					}
-				},
-				{
-					"startTime": "2023-11-14T16:00:00Z",
-					"values": {
-						"temperature": 8.63
-					}
-				},
-				{
-					"startTime": "2023-11-14T17:00:00Z",
-					"values": {
-						"temperature": 9.07
-					}
-				},
-				{
-					"startTime": "2023-11-14T18:00:00Z",
-					"values": {
-						"temperature": 9.5
-					}
-				},
-				{
-					"startTime": "2023-11-14T19:00:00Z",
-					"values": {
-						"temperature": 9.48
-					}
-				},
-				{
-					"startTime": "2023-11-14T20:00:00Z",
-					"values": {
-						"temperature": 9.45
-					}
-				},
-				{
-					"startTime": "2023-11-14T21:00:00Z",
-					"values": {
-						"temperature": 9.43
-					}
-				}
-			]
-		}
-	]
+	"data": {
+		"timelines": [
+			{
+				"timestep": "1h",
+				"endTime": "2023-11-14T22:00:00Z",
+				"startTime": "2023-11-09T22:00:00Z",
+				"intervals": [
+					{
+						"startTime": "2023-11-09T22:00:00Z",
+						"values": {
+							"dewPoint": 7.31,
+							"humidity": 71,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 12.31,
+							"temperatureApparent": 12.31,
+							"windDirection": 85.5,
+							"windGust": 1.88,
+							"windSpeed": 1.63
+						}
+					},
+					{
+						"startTime": "2023-11-09T23:00:00Z",
+						"values": {
+							"dewPoint": 6.97,
+							"humidity": 75.15,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 11.28,
+							"temperatureApparent": 11.28,
+							"windDirection": 75.05,
+							"windGust": 2.68,
+							"windSpeed": 2.2
+						}
+					},
+					{
+						"startTime": "2023-11-10T00:00:00Z",
+						"values": {
+							"dewPoint": 7.46,
+							"humidity": 83.93,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.88,
+							"temperatureApparent": 9.88,
+							"windDirection": 96.15,
+							"windGust": 2.21,
+							"windSpeed": 1.83
+						}
+					},
+					{
+						"startTime": "2023-11-10T01:00:00Z",
+						"values": {
+							"dewPoint": 7.15,
+							"humidity": 84.54,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.46,
+							"temperatureApparent": 9.46,
+							"windDirection": 298.98,
+							"windGust": 2.28,
+							"windSpeed": 1.9
+						}
+					},
+					{
+						"startTime": "2023-11-10T02:00:00Z",
+						"values": {
+							"dewPoint": 6.79,
+							"humidity": 84.7,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.08,
+							"temperatureApparent": 9.08,
+							"windDirection": 343.1,
+							"windGust": 7.38,
+							"windSpeed": 2.94
+						}
+					},
+					{
+						"startTime": "2023-11-10T03:00:00Z",
+						"values": {
+							"dewPoint": 5.85,
+							"humidity": 83.51,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.35,
+							"temperatureApparent": 8.35,
+							"windDirection": 347.57,
+							"windGust": 5.53,
+							"windSpeed": 2.84
+						}
+					},
+					{
+						"startTime": "2023-11-10T04:00:00Z",
+						"values": {
+							"dewPoint": 5.11,
+							"humidity": 82.71,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.73,
+							"temperatureApparent": 7.73,
+							"windDirection": 341.79,
+							"windGust": 4.39,
+							"windSpeed": 2.44
+						}
+					},
+					{
+						"startTime": "2023-11-10T05:00:00Z",
+						"values": {
+							"dewPoint": 4.19,
+							"humidity": 79.99,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.38,
+							"temperatureApparent": 7.38,
+							"windDirection": 329.89,
+							"windGust": 4.45,
+							"windSpeed": 2.67
+						}
+					},
+					{
+						"startTime": "2023-11-10T06:00:00Z",
+						"values": {
+							"dewPoint": 3.33,
+							"humidity": 79.92,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.49,
+							"temperatureApparent": 6.49,
+							"windDirection": 319.9,
+							"windGust": 4.09,
+							"windSpeed": 2.55
+						}
+					},
+					{
+						"startTime": "2023-11-10T07:00:00Z",
+						"values": {
+							"dewPoint": 2.33,
+							"humidity": 76.72,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.15,
+							"temperatureApparent": 6.15,
+							"windDirection": 314.19,
+							"windGust": 4.02,
+							"windSpeed": 2.82
+						}
+					},
+					{
+						"startTime": "2023-11-10T08:00:00Z",
+						"values": {
+							"dewPoint": 1.31,
+							"humidity": 74.02,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.73,
+							"temperatureApparent": 5.73,
+							"windDirection": 304.05,
+							"windGust": 3.19,
+							"windSpeed": 2.66
+						}
+					},
+					{
+						"startTime": "2023-11-10T09:00:00Z",
+						"values": {
+							"dewPoint": 0.94,
+							"humidity": 72.34,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.73,
+							"temperatureApparent": 5.73,
+							"windDirection": 273.22,
+							"windGust": 2.66,
+							"windSpeed": 2.22
+						}
+					},
+					{
+						"startTime": "2023-11-10T10:00:00Z",
+						"values": {
+							"dewPoint": 1.1,
+							"humidity": 72.3,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.9,
+							"temperatureApparent": 5.9,
+							"windDirection": 245.4,
+							"windGust": 3.03,
+							"windSpeed": 2.11
+						}
+					},
+					{
+						"startTime": "2023-11-10T11:00:00Z",
+						"values": {
+							"dewPoint": 1.05,
+							"humidity": 71.35,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.04,
+							"temperatureApparent": 6.04,
+							"windDirection": 240.4,
+							"windGust": 4.59,
+							"windSpeed": 2.29
+						}
+					},
+					{
+						"startTime": "2023-11-10T12:00:00Z",
+						"values": {
+							"dewPoint": 1.04,
+							"humidity": 69.99,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.34,
+							"temperatureApparent": 6.34,
+							"windDirection": 234.82,
+							"windGust": 5.17,
+							"windSpeed": 2.44
+						}
+					},
+					{
+						"startTime": "2023-11-10T13:00:00Z",
+						"values": {
+							"dewPoint": 1.22,
+							"humidity": 66.06,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.41,
+							"temperatureApparent": 7.41,
+							"windDirection": 237.55,
+							"windGust": 5.45,
+							"windSpeed": 2.56
+						}
+					},
+					{
+						"startTime": "2023-11-10T14:00:00Z",
+						"values": {
+							"dewPoint": 1.28,
+							"humidity": 59.36,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.08,
+							"temperatureApparent": 9.08,
+							"windDirection": 240.77,
+							"windGust": 5.27,
+							"windSpeed": 2.93
+						}
+					},
+					{
+						"startTime": "2023-11-10T15:00:00Z",
+						"values": {
+							"dewPoint": 1.57,
+							"humidity": 58.33,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.67,
+							"temperatureApparent": 9.67,
+							"windDirection": 243.68,
+							"windGust": 6.19,
+							"windSpeed": 2.88
+						}
+					},
+					{
+						"startTime": "2023-11-10T16:00:00Z",
+						"values": {
+							"dewPoint": 0.84,
+							"humidity": 51.55,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.77,
+							"temperatureApparent": 10.77,
+							"windDirection": 244.08,
+							"windGust": 6.98,
+							"windSpeed": 3.45
+						}
+					},
+					{
+						"startTime": "2023-11-10T17:00:00Z",
+						"values": {
+							"dewPoint": 0.04,
+							"humidity": 46.9,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 11.36,
+							"temperatureApparent": 11.36,
+							"windDirection": 244.17,
+							"windGust": 6.79,
+							"windSpeed": 3.65
+						}
+					},
+					{
+						"startTime": "2023-11-10T18:00:00Z",
+						"values": {
+							"dewPoint": -0.46,
+							"humidity": 44.07,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 11.79,
+							"temperatureApparent": 11.79,
+							"windDirection": 239.98,
+							"windGust": 6.27,
+							"windSpeed": 3.93
+						}
+					},
+					{
+						"startTime": "2023-11-10T19:00:00Z",
+						"values": {
+							"dewPoint": -0.54,
+							"humidity": 43.29,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 12.01,
+							"temperatureApparent": 12.01,
+							"windDirection": 235.3,
+							"windGust": 6.07,
+							"windSpeed": 4
+						}
+					},
+					{
+						"startTime": "2023-11-10T20:00:00Z",
+						"values": {
+							"dewPoint": -0.54,
+							"humidity": 42.99,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 12.14,
+							"temperatureApparent": 12.14,
+							"windDirection": 233.25,
+							"windGust": 6.42,
+							"windSpeed": 4.15
+						}
+					},
+					{
+						"startTime": "2023-11-10T21:00:00Z",
+						"values": {
+							"dewPoint": -0.73,
+							"humidity": 43.91,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 11.67,
+							"temperatureApparent": 11.67,
+							"windDirection": 234.11,
+							"windGust": 6.49,
+							"windSpeed": 3.9
+						}
+					},
+					{
+						"startTime": "2023-11-10T22:00:00Z",
+						"values": {
+							"dewPoint": -0.75,
+							"humidity": 46.83,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.7,
+							"temperatureApparent": 10.7,
+							"windDirection": 234.61,
+							"windGust": 7.4,
+							"windSpeed": 3.43
+						}
+					},
+					{
+						"startTime": "2023-11-10T23:00:00Z",
+						"values": {
+							"dewPoint": -0.81,
+							"humidity": 48.73,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.05,
+							"temperatureApparent": 10.05,
+							"windDirection": 233.23,
+							"windGust": 6.73,
+							"windSpeed": 3.3
+						}
+					},
+					{
+						"startTime": "2023-11-11T00:00:00Z",
+						"values": {
+							"dewPoint": -0.29,
+							"humidity": 56.39,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.43,
+							"temperatureApparent": 8.43,
+							"windDirection": 232.8,
+							"windGust": 7.27,
+							"windSpeed": 3.29
+						}
+					},
+					{
+						"startTime": "2023-11-11T01:00:00Z",
+						"values": {
+							"dewPoint": -0.33,
+							"humidity": 58.05,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.92,
+							"temperatureApparent": 7.92,
+							"windDirection": 227.82,
+							"windGust": 7.46,
+							"windSpeed": 3.57
+						}
+					},
+					{
+						"startTime": "2023-11-11T02:00:00Z",
+						"values": {
+							"dewPoint": 0,
+							"humidity": 60.86,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.49,
+							"temperatureApparent": 7.49,
+							"windDirection": 224.15,
+							"windGust": 8.32,
+							"windSpeed": 4.22
+						}
+					},
+					{
+						"startTime": "2023-11-11T03:00:00Z",
+						"values": {
+							"dewPoint": 0.55,
+							"humidity": 63.67,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.35,
+							"temperatureApparent": 7.35,
+							"windDirection": 255.19,
+							"windGust": 7.18,
+							"windSpeed": 3.45
+						}
+					},
+					{
+						"startTime": "2023-11-11T04:00:00Z",
+						"values": {
+							"dewPoint": 0.46,
+							"humidity": 66.59,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.57,
+							"temperatureApparent": 6.57,
+							"windDirection": 250.26,
+							"windGust": 4.51,
+							"windSpeed": 2.96
+						}
+					},
+					{
+						"startTime": "2023-11-11T05:00:00Z",
+						"values": {
+							"dewPoint": 0.26,
+							"humidity": 70.52,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.42,
+							"temperatureApparent": 5.42,
+							"windDirection": 274.15,
+							"windGust": 3.67,
+							"windSpeed": 2.68
+						}
+					},
+					{
+						"startTime": "2023-11-11T06:00:00Z",
+						"values": {
+							"dewPoint": 0.25,
+							"humidity": 71.72,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.12,
+							"temperatureApparent": 5.12,
+							"windDirection": 267.47,
+							"windGust": 2.37,
+							"windSpeed": 2.36
+						}
+					},
+					{
+						"startTime": "2023-11-11T07:00:00Z",
+						"values": {
+							"dewPoint": 0.23,
+							"humidity": 69.44,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.65,
+							"temperatureApparent": 5.65,
+							"windDirection": 278.41,
+							"windGust": 5.04,
+							"windSpeed": 2.46
+						}
+					},
+					{
+						"startTime": "2023-11-11T08:00:00Z",
+						"values": {
+							"dewPoint": -0.43,
+							"humidity": 69.84,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.88,
+							"temperatureApparent": 4.88,
+							"windDirection": 289.66,
+							"windGust": 8.44,
+							"windSpeed": 2.96
+						}
+					},
+					{
+						"startTime": "2023-11-11T09:00:00Z",
+						"values": {
+							"dewPoint": -1.16,
+							"humidity": 68.5,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.43,
+							"temperatureApparent": 1.64,
+							"windDirection": 297.2,
+							"windGust": 7.26,
+							"windSpeed": 3.21
+						}
+					},
+					{
+						"startTime": "2023-11-11T10:00:00Z",
+						"values": {
+							"dewPoint": -1.75,
+							"humidity": 69.71,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.54,
+							"temperatureApparent": 0.67,
+							"windDirection": 290.82,
+							"windGust": 6.17,
+							"windSpeed": 3.08
+						}
+					},
+					{
+						"startTime": "2023-11-11T11:00:00Z",
+						"values": {
+							"dewPoint": -2.11,
+							"humidity": 71.32,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.8,
+							"temperatureApparent": -0.12,
+							"windDirection": 283.23,
+							"windGust": 5.61,
+							"windSpeed": 2.96
+						}
+					},
+					{
+						"startTime": "2023-11-11T12:00:00Z",
+						"values": {
+							"dewPoint": -2.15,
+							"humidity": 73.57,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.22,
+							"temperatureApparent": -0.7,
+							"windDirection": 275.68,
+							"windGust": 4.92,
+							"windSpeed": 2.82
+						}
+					},
+					{
+						"startTime": "2023-11-11T13:00:00Z",
+						"values": {
+							"dewPoint": -1.5,
+							"humidity": 66.82,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.45,
+							"temperatureApparent": 4.45,
+							"windDirection": 281.66,
+							"windGust": 7.87,
+							"windSpeed": 3.15
+						}
+					},
+					{
+						"startTime": "2023-11-11T14:00:00Z",
+						"values": {
+							"dewPoint": -1.08,
+							"humidity": 61.14,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.29,
+							"temperatureApparent": 6.29,
+							"windDirection": 297.1,
+							"windGust": 7.71,
+							"windSpeed": 3.97
+						}
+					},
+					{
+						"startTime": "2023-11-11T15:00:00Z",
+						"values": {
+							"dewPoint": -0.48,
+							"humidity": 56.15,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.24,
+							"temperatureApparent": 8.24,
+							"windDirection": 329.5,
+							"windGust": 7.31,
+							"windSpeed": 4.86
+						}
+					},
+					{
+						"startTime": "2023-11-11T16:00:00Z",
+						"values": {
+							"dewPoint": -1.35,
+							"humidity": 49.44,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.35,
+							"temperatureApparent": 9.35,
+							"windDirection": 331.79,
+							"windGust": 7.53,
+							"windSpeed": 5.44
+						}
+					},
+					{
+						"startTime": "2023-11-11T17:00:00Z",
+						"values": {
+							"dewPoint": -0.36,
+							"humidity": 48.77,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.92,
+							"temperatureApparent": 9.92,
+							"windDirection": 321.41,
+							"windGust": 10.14,
+							"windSpeed": 5.27
+						}
+					},
+					{
+						"startTime": "2023-11-11T18:00:00Z",
+						"values": {
+							"dewPoint": -0.45,
+							"humidity": 49.19,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.69,
+							"temperatureApparent": 9.69,
+							"windDirection": 320.26,
+							"windGust": 9.35,
+							"windSpeed": 4.93
+						}
+					},
+					{
+						"startTime": "2023-11-11T19:00:00Z",
+						"values": {
+							"dewPoint": -1.12,
+							"humidity": 45.45,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.15,
+							"temperatureApparent": 10.15,
+							"windDirection": 313.15,
+							"windGust": 9.32,
+							"windSpeed": 4.97
+						}
+					},
+					{
+						"startTime": "2023-11-11T20:00:00Z",
+						"values": {
+							"dewPoint": -1.84,
+							"humidity": 43.45,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.02,
+							"temperatureApparent": 10.02,
+							"windDirection": 316.65,
+							"windGust": 9.67,
+							"windSpeed": 5.13
+						}
+					},
+					{
+						"startTime": "2023-11-11T21:00:00Z",
+						"values": {
+							"dewPoint": -1.75,
+							"humidity": 47.83,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.7,
+							"temperatureApparent": 8.7,
+							"windDirection": 324.2,
+							"windGust": 8.29,
+							"windSpeed": 4.74
+						}
+					},
+					{
+						"startTime": "2023-11-11T22:00:00Z",
+						"values": {
+							"dewPoint": -2.29,
+							"humidity": 52.21,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.82,
+							"temperatureApparent": 6.82,
+							"windDirection": 326.49,
+							"windGust": 6.86,
+							"windSpeed": 4.04
+						}
+					},
+					{
+						"startTime": "2023-11-11T23:00:00Z",
+						"values": {
+							"dewPoint": -2.46,
+							"humidity": 56.13,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.59,
+							"temperatureApparent": 5.59,
+							"windDirection": 332.25,
+							"windGust": 6.35,
+							"windSpeed": 3.77
+						}
+					},
+					{
+						"startTime": "2023-11-12T00:00:00Z",
+						"values": {
+							"dewPoint": -2.62,
+							"humidity": 59.26,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.64,
+							"temperatureApparent": 4.64,
+							"windDirection": 333.45,
+							"windGust": 6.25,
+							"windSpeed": 3.71
+						}
+					},
+					{
+						"startTime": "2023-11-12T01:00:00Z",
+						"values": {
+							"dewPoint": -2.96,
+							"humidity": 61.13,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.84,
+							"temperatureApparent": 0.57,
+							"windDirection": 333.54,
+							"windGust": 6.31,
+							"windSpeed": 3.76
+						}
+					},
+					{
+						"startTime": "2023-11-12T02:00:00Z",
+						"values": {
+							"dewPoint": -3.33,
+							"humidity": 62.33,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.17,
+							"temperatureApparent": -0.27,
+							"windDirection": 337.72,
+							"windGust": 6.39,
+							"windSpeed": 3.79
+						}
+					},
+					{
+						"startTime": "2023-11-12T03:00:00Z",
+						"values": {
+							"dewPoint": -3.54,
+							"humidity": 64.55,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.46,
+							"temperatureApparent": -0.99,
+							"windDirection": 341.03,
+							"windGust": 5.98,
+							"windSpeed": 3.57
+						}
+					},
+					{
+						"startTime": "2023-11-12T04:00:00Z",
+						"values": {
+							"dewPoint": -3.58,
+							"humidity": 67.55,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 1.78,
+							"temperatureApparent": -1.53,
+							"windDirection": 342.11,
+							"windGust": 5.32,
+							"windSpeed": 3.18
+						}
+					},
+					{
+						"startTime": "2023-11-12T05:00:00Z",
+						"values": {
+							"dewPoint": -3.55,
+							"humidity": 70.95,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 1.13,
+							"temperatureApparent": -1.86,
+							"windDirection": 350.74,
+							"windGust": 4.43,
+							"windSpeed": 2.66
+						}
+					},
+					{
+						"startTime": "2023-11-12T06:00:00Z",
+						"values": {
+							"dewPoint": -3.24,
+							"humidity": 76.22,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 0.45,
+							"temperatureApparent": -2.11,
+							"windDirection": 4.33,
+							"windGust": 3.51,
+							"windSpeed": 2.14
+						}
+					},
+					{
+						"startTime": "2023-11-12T07:00:00Z",
+						"values": {
+							"dewPoint": -2.65,
+							"humidity": 83.04,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -0.12,
+							"temperatureApparent": -2.4,
+							"windDirection": 12,
+							"windGust": 3,
+							"windSpeed": 1.83
+						}
+					},
+					{
+						"startTime": "2023-11-12T08:00:00Z",
+						"values": {
+							"dewPoint": -2.34,
+							"humidity": 87.54,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -0.53,
+							"temperatureApparent": -2.6,
+							"windDirection": 6.02,
+							"windGust": 2.68,
+							"windSpeed": 1.65
+						}
+					},
+					{
+						"startTime": "2023-11-12T09:00:00Z",
+						"values": {
+							"dewPoint": -2.48,
+							"humidity": 89.14,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -0.92,
+							"temperatureApparent": -2.89,
+							"windDirection": 357,
+							"windGust": 2.49,
+							"windSpeed": 1.54
+						}
+					},
+					{
+						"startTime": "2023-11-12T10:00:00Z",
+						"values": {
+							"dewPoint": -2.67,
+							"humidity": 90.45,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -1.31,
+							"temperatureApparent": -3.41,
+							"windDirection": 350.75,
+							"windGust": 2.47,
+							"windSpeed": 1.59
+						}
+					},
+					{
+						"startTime": "2023-11-12T11:00:00Z",
+						"values": {
+							"dewPoint": -2.5,
+							"humidity": 90.32,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -1.12,
+							"temperatureApparent": -3.21,
+							"windDirection": 351.53,
+							"windGust": 2.68,
+							"windSpeed": 1.6
+						}
+					},
+					{
+						"startTime": "2023-11-12T12:00:00Z",
+						"values": {
+							"dewPoint": -2.34,
+							"humidity": 90.07,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": -0.91,
+							"temperatureApparent": -3.57,
+							"windDirection": 0.75,
+							"windGust": 3.41,
+							"windSpeed": 2.02
+						}
+					},
+					{
+						"startTime": "2023-11-12T13:00:00Z",
+						"values": {
+							"dewPoint": -1.7,
+							"humidity": 82.86,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 0.88,
+							"temperatureApparent": -1.33,
+							"windDirection": 7.57,
+							"windGust": 3.93,
+							"windSpeed": 1.91
+						}
+					},
+					{
+						"startTime": "2023-11-12T14:00:00Z",
+						"values": {
+							"dewPoint": -2.32,
+							"humidity": 68.24,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.95,
+							"temperatureApparent": 1.58,
+							"windDirection": 17.96,
+							"windGust": 4.14,
+							"windSpeed": 1.51
+						}
+					},
+					{
+						"startTime": "2023-11-12T15:00:00Z",
+						"values": {
+							"dewPoint": -2.94,
+							"humidity": 59.25,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.31,
+							"temperatureApparent": 4.31,
+							"windDirection": 16.84,
+							"windGust": 4.18,
+							"windSpeed": 1.26
+						}
+					},
+					{
+						"startTime": "2023-11-12T16:00:00Z",
+						"values": {
+							"dewPoint": -2.83,
+							"humidity": 55.99,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.24,
+							"temperatureApparent": 5.24,
+							"windDirection": 358.13,
+							"windGust": 3.69,
+							"windSpeed": 0.72
+						}
+					},
+					{
+						"startTime": "2023-11-12T17:00:00Z",
+						"values": {
+							"dewPoint": -2.47,
+							"humidity": 54.62,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.98,
+							"temperatureApparent": 5.98,
+							"windDirection": 271.97,
+							"windGust": 3.64,
+							"windSpeed": 0.57
+						}
+					},
+					{
+						"startTime": "2023-11-12T18:00:00Z",
+						"values": {
+							"dewPoint": -2.32,
+							"humidity": 52.69,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.66,
+							"temperatureApparent": 6.66,
+							"windDirection": 275.14,
+							"windGust": 3.86,
+							"windSpeed": 0.92
+						}
+					},
+					{
+						"startTime": "2023-11-12T19:00:00Z",
+						"values": {
+							"dewPoint": -2.5,
+							"humidity": 50,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.23,
+							"temperatureApparent": 7.23,
+							"windDirection": 288.38,
+							"windGust": 3.88,
+							"windSpeed": 1.22
+						}
+					},
+					{
+						"startTime": "2023-11-12T20:00:00Z",
+						"values": {
+							"dewPoint": -3.56,
+							"humidity": 45.44,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.48,
+							"temperatureApparent": 7.48,
+							"windDirection": 292.13,
+							"windGust": 3.73,
+							"windSpeed": 1.71
+						}
+					},
+					{
+						"startTime": "2023-11-12T21:00:00Z",
+						"values": {
+							"dewPoint": -2.13,
+							"humidity": 52.88,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.82,
+							"temperatureApparent": 6.82,
+							"windDirection": 289.96,
+							"windGust": 1.95,
+							"windSpeed": 1.39
+						}
+					},
+					{
+						"startTime": "2023-11-12T22:00:00Z",
+						"values": {
+							"dewPoint": -4.2,
+							"humidity": 45.83,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.65,
+							"temperatureApparent": 6.65,
+							"windDirection": 68.15,
+							"windGust": 2.23,
+							"windSpeed": 1.74
+						}
+					},
+					{
+						"startTime": "2023-11-12T23:00:00Z",
+						"values": {
+							"dewPoint": -3.29,
+							"humidity": 58.27,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.18,
+							"temperatureApparent": 1.94,
+							"windDirection": 49.22,
+							"windGust": 3.37,
+							"windSpeed": 2.46
+						}
+					},
+					{
+						"startTime": "2023-11-13T00:00:00Z",
+						"values": {
+							"dewPoint": -3.22,
+							"humidity": 60.16,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.8,
+							"temperatureApparent": 1.72,
+							"windDirection": 50.56,
+							"windGust": 3.4,
+							"windSpeed": 2.23
+						}
+					},
+					{
+						"startTime": "2023-11-13T01:00:00Z",
+						"values": {
+							"dewPoint": -3.72,
+							"humidity": 58.94,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.56,
+							"temperatureApparent": 1.3,
+							"windDirection": 37.68,
+							"windGust": 3.93,
+							"windSpeed": 2.37
+						}
+					},
+					{
+						"startTime": "2023-11-13T02:00:00Z",
+						"values": {
+							"dewPoint": -4.3,
+							"humidity": 56.11,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.64,
+							"temperatureApparent": 1.26,
+							"windDirection": 21.76,
+							"windGust": 4.59,
+							"windSpeed": 2.51
+						}
+					},
+					{
+						"startTime": "2023-11-13T03:00:00Z",
+						"values": {
+							"dewPoint": -5.18,
+							"humidity": 53.52,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.36,
+							"temperatureApparent": 0.85,
+							"windDirection": 15.42,
+							"windGust": 4.83,
+							"windSpeed": 2.61
+						}
+					},
+					{
+						"startTime": "2023-11-13T04:00:00Z",
+						"values": {
+							"dewPoint": -5.89,
+							"humidity": 51.13,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.25,
+							"temperatureApparent": 0.63,
+							"windDirection": 9.75,
+							"windGust": 4.56,
+							"windSpeed": 2.7
+						}
+					},
+					{
+						"startTime": "2023-11-13T05:00:00Z",
+						"values": {
+							"dewPoint": -6.3,
+							"humidity": 49.84,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.17,
+							"temperatureApparent": 0.43,
+							"windDirection": 7.54,
+							"windGust": 4.65,
+							"windSpeed": 2.82
+						}
+					},
+					{
+						"startTime": "2023-11-13T06:00:00Z",
+						"values": {
+							"dewPoint": -6.52,
+							"humidity": 48.84,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.22,
+							"temperatureApparent": 0.51,
+							"windDirection": 326.6,
+							"windGust": 4.45,
+							"windSpeed": 2.81
+						}
+					},
+					{
+						"startTime": "2023-11-13T07:00:00Z",
+						"values": {
+							"dewPoint": -6.67,
+							"humidity": 48.06,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.28,
+							"temperatureApparent": 0.73,
+							"windDirection": 351.34,
+							"windGust": 4.04,
+							"windSpeed": 2.62
+						}
+					},
+					{
+						"startTime": "2023-11-13T08:00:00Z",
+						"values": {
+							"dewPoint": -6.5,
+							"humidity": 49.66,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 3.01,
+							"temperatureApparent": 0.42,
+							"windDirection": 348.53,
+							"windGust": 3.89,
+							"windSpeed": 2.62
+						}
+					},
+					{
+						"startTime": "2023-11-13T09:00:00Z",
+						"values": {
+							"dewPoint": -6.39,
+							"humidity": 50.99,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.76,
+							"temperatureApparent": 0.17,
+							"windDirection": 6.92,
+							"windGust": 3.98,
+							"windSpeed": 2.56
+						}
+					},
+					{
+						"startTime": "2023-11-13T10:00:00Z",
+						"values": {
+							"dewPoint": -6.37,
+							"humidity": 51.69,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.58,
+							"temperatureApparent": 0.33,
+							"windDirection": 12.57,
+							"windGust": 3.44,
+							"windSpeed": 2.19
+						}
+					},
+					{
+						"startTime": "2023-11-13T11:00:00Z",
+						"values": {
+							"dewPoint": -6.32,
+							"humidity": 52.43,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.44,
+							"temperatureApparent": 0.39,
+							"windDirection": 5.75,
+							"windGust": 2.99,
+							"windSpeed": 1.98
+						}
+					},
+					{
+						"startTime": "2023-11-13T12:00:00Z",
+						"values": {
+							"dewPoint": -6.29,
+							"humidity": 52.84,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 2.36,
+							"temperatureApparent": 0.77,
+							"windDirection": 13.5,
+							"windGust": 2.26,
+							"windSpeed": 1.61
+						}
+					},
+					{
+						"startTime": "2023-11-13T13:00:00Z",
+						"values": {
+							"dewPoint": -7.19,
+							"humidity": 43.44,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 4.15,
+							"temperatureApparent": 4.15,
+							"windDirection": 253.06,
+							"windGust": 1.92,
+							"windSpeed": 1.19
+						}
+					},
+					{
+						"startTime": "2023-11-13T14:00:00Z",
+						"values": {
+							"dewPoint": -7.28,
+							"humidity": 39.65,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.36,
+							"temperatureApparent": 5.36,
+							"windDirection": 235.76,
+							"windGust": 3.32,
+							"windSpeed": 1.9
+						}
+					},
+					{
+						"startTime": "2023-11-13T15:00:00Z",
+						"values": {
+							"dewPoint": -7.19,
+							"humidity": 36.53,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.65,
+							"temperatureApparent": 6.65,
+							"windDirection": 227.3,
+							"windGust": 4.33,
+							"windSpeed": 2.61
+						}
+					},
+					{
+						"startTime": "2023-11-13T16:00:00Z",
+						"values": {
+							"dewPoint": -7.05,
+							"humidity": 34,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.86,
+							"temperatureApparent": 7.86,
+							"windDirection": 225.08,
+							"windGust": 5.21,
+							"windSpeed": 3.5
+						}
+					},
+					{
+						"startTime": "2023-11-13T17:00:00Z",
+						"values": {
+							"dewPoint": -6.81,
+							"humidity": 32.18,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.94,
+							"temperatureApparent": 8.94,
+							"windDirection": 226.45,
+							"windGust": 5.55,
+							"windSpeed": 3.9
+						}
+					},
+					{
+						"startTime": "2023-11-13T18:00:00Z",
+						"values": {
+							"dewPoint": -6.11,
+							"humidity": 32.1,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.78,
+							"temperatureApparent": 9.78,
+							"windDirection": 228.72,
+							"windGust": 6.08,
+							"windSpeed": 4.38
+						}
+					},
+					{
+						"startTime": "2023-11-13T19:00:00Z",
+						"values": {
+							"dewPoint": -5.42,
+							"humidity": 32.41,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.42,
+							"temperatureApparent": 10.42,
+							"windDirection": 228.32,
+							"windGust": 6.44,
+							"windSpeed": 4.49
+						}
+					},
+					{
+						"startTime": "2023-11-13T20:00:00Z",
+						"values": {
+							"dewPoint": -4.74,
+							"humidity": 33.71,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.6,
+							"temperatureApparent": 10.6,
+							"windDirection": 232.09,
+							"windGust": 6.78,
+							"windSpeed": 4.87
+						}
+					},
+					{
+						"startTime": "2023-11-13T21:00:00Z",
+						"values": {
+							"dewPoint": -3.69,
+							"humidity": 36.98,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 10.4,
+							"temperatureApparent": 10.4,
+							"windDirection": 235.84,
+							"windGust": 7.18,
+							"windSpeed": 4.26
+						}
+					},
+					{
+						"startTime": "2023-11-13T22:00:00Z",
+						"values": {
+							"dewPoint": -3.04,
+							"humidity": 40.24,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.85,
+							"temperatureApparent": 9.85,
+							"windDirection": 237.02,
+							"windGust": 8.8,
+							"windSpeed": 4.24
+						}
+					},
+					{
+						"startTime": "2023-11-13T23:00:00Z",
+						"values": {
+							"dewPoint": -2.48,
+							"humidity": 42.65,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.61,
+							"temperatureApparent": 9.61,
+							"windDirection": 232.4,
+							"windGust": 9.96,
+							"windSpeed": 3.96
+						}
+					},
+					{
+						"startTime": "2023-11-14T00:00:00Z",
+						"values": {
+							"dewPoint": -1.97,
+							"humidity": 44.8,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.44,
+							"temperatureApparent": 9.44,
+							"windDirection": 230.91,
+							"windGust": 10.06,
+							"windSpeed": 3.55
+						}
+					},
+					{
+						"startTime": "2023-11-14T01:00:00Z",
+						"values": {
+							"dewPoint": -1.63,
+							"humidity": 47.65,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.89,
+							"temperatureApparent": 8.89,
+							"windDirection": 226.74,
+							"windGust": 11.18,
+							"windSpeed": 3.93
+						}
+					},
+					{
+						"startTime": "2023-11-14T02:00:00Z",
+						"values": {
+							"dewPoint": -1.36,
+							"humidity": 49.77,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.54,
+							"temperatureApparent": 8.54,
+							"windDirection": 234.95,
+							"windGust": 13.26,
+							"windSpeed": 4.46
+						}
+					},
+					{
+						"startTime": "2023-11-14T03:00:00Z",
+						"values": {
+							"dewPoint": -0.95,
+							"humidity": 52.19,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.28,
+							"temperatureApparent": 8.28,
+							"windDirection": 245.64,
+							"windGust": 13.29,
+							"windSpeed": 4.89
+						}
+					},
+					{
+						"startTime": "2023-11-14T04:00:00Z",
+						"values": {
+							"dewPoint": -0.6,
+							"humidity": 54.97,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.89,
+							"temperatureApparent": 7.89,
+							"windDirection": 258.9,
+							"windGust": 13.01,
+							"windSpeed": 4.58
+						}
+					},
+					{
+						"startTime": "2023-11-14T05:00:00Z",
+						"values": {
+							"dewPoint": -2.66,
+							"humidity": 50.08,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.04,
+							"temperatureApparent": 7.04,
+							"windDirection": 252.36,
+							"windGust": 12.77,
+							"windSpeed": 3.94
+						}
+					},
+					{
+						"startTime": "2023-11-14T06:00:00Z",
+						"values": {
+							"dewPoint": -1.94,
+							"humidity": 54,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.72,
+							"temperatureApparent": 6.72,
+							"windDirection": 261.66,
+							"windGust": 11.19,
+							"windSpeed": 3.97
+						}
+					},
+					{
+						"startTime": "2023-11-14T07:00:00Z",
+						"values": {
+							"dewPoint": -1.52,
+							"humidity": 56.79,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.43,
+							"temperatureApparent": 6.43,
+							"windDirection": 274.14,
+							"windGust": 10.8,
+							"windSpeed": 3.43
+						}
+					},
+					{
+						"startTime": "2023-11-14T08:00:00Z",
+						"values": {
+							"dewPoint": -0.88,
+							"humidity": 59.88,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.34,
+							"temperatureApparent": 6.34,
+							"windDirection": 295.67,
+							"windGust": 12.48,
+							"windSpeed": 3.89
+						}
+					},
+					{
+						"startTime": "2023-11-14T09:00:00Z",
+						"values": {
+							"dewPoint": 0.21,
+							"humidity": 65.74,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.15,
+							"temperatureApparent": 6.15,
+							"windDirection": 306.92,
+							"windGust": 12.23,
+							"windSpeed": 4.98
+						}
+					},
+					{
+						"startTime": "2023-11-14T10:00:00Z",
+						"values": {
+							"dewPoint": 0.48,
+							"humidity": 68.72,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.78,
+							"temperatureApparent": 5.78,
+							"windDirection": 307.39,
+							"windGust": 11.51,
+							"windSpeed": 4.42
+						}
+					},
+					{
+						"startTime": "2023-11-14T11:00:00Z",
+						"values": {
+							"dewPoint": 0.35,
+							"humidity": 69.09,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 5.57,
+							"temperatureApparent": 5.57,
+							"windDirection": 306.51,
+							"windGust": 11.1,
+							"windSpeed": 4.39
+						}
+					},
+					{
+						"startTime": "2023-11-14T12:00:00Z",
+						"values": {
+							"dewPoint": -1.28,
+							"humidity": 56.1,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 6.87,
+							"temperatureApparent": 6.87,
+							"windDirection": 323.49,
+							"windGust": 13.92,
+							"windSpeed": 6.24
+						}
+					},
+					{
+						"startTime": "2023-11-14T13:00:00Z",
+						"values": {
+							"dewPoint": -1.1,
+							"humidity": 55.18,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.32,
+							"temperatureApparent": 7.32,
+							"windDirection": 323.49,
+							"windGust": 13.32,
+							"windSpeed": 6.21
+						}
+					},
+					{
+						"startTime": "2023-11-14T14:00:00Z",
+						"values": {
+							"dewPoint": -0.91,
+							"humidity": 54.27,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 7.76,
+							"temperatureApparent": 7.76,
+							"windDirection": 317.08,
+							"windGust": 12.71,
+							"windSpeed": 6.18
+						}
+					},
+					{
+						"startTime": "2023-11-14T15:00:00Z",
+						"values": {
+							"dewPoint": -0.73,
+							"humidity": 53.35,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.2,
+							"temperatureApparent": 8.2,
+							"windDirection": 317.08,
+							"windGust": 12.1,
+							"windSpeed": 6.16
+						}
+					},
+					{
+						"startTime": "2023-11-14T16:00:00Z",
+						"values": {
+							"dewPoint": -1.18,
+							"humidity": 50.31,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.63,
+							"temperatureApparent": 8.63,
+							"windDirection": 317.08,
+							"windGust": 11.7,
+							"windSpeed": 6.35
+						}
+					},
+					{
+						"startTime": "2023-11-14T17:00:00Z",
+						"values": {
+							"dewPoint": -1.63,
+							"humidity": 47.27,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.07,
+							"temperatureApparent": 9.07,
+							"windDirection": 325.59,
+							"windGust": 11.29,
+							"windSpeed": 6.55
+						}
+					},
+					{
+						"startTime": "2023-11-14T18:00:00Z",
+						"values": {
+							"dewPoint": -2.09,
+							"humidity": 44.23,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.5,
+							"temperatureApparent": 9.5,
+							"windDirection": 325.59,
+							"windGust": 10.89,
+							"windSpeed": 6.74
+						}
+					},
+					{
+						"startTime": "2023-11-14T19:00:00Z",
+						"values": {
+							"dewPoint": -1.85,
+							"humidity": 45.09,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.48,
+							"temperatureApparent": 9.48,
+							"windDirection": 325.59,
+							"windGust": 10.34,
+							"windSpeed": 6.25
+						}
+					},
+					{
+						"startTime": "2023-11-14T20:00:00Z",
+						"values": {
+							"dewPoint": -1.61,
+							"humidity": 45.96,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.45,
+							"temperatureApparent": 9.45,
+							"windDirection": 320.56,
+							"windGust": 9.79,
+							"windSpeed": 5.76
+						}
+					},
+					{
+						"startTime": "2023-11-14T21:00:00Z",
+						"values": {
+							"dewPoint": -1.38,
+							"humidity": 46.82,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 9.43,
+							"temperatureApparent": 9.43,
+							"windDirection": 320.56,
+							"windGust": 9.24,
+							"windSpeed": 5.28
+						}
+					},
+					{
+						"startTime": "2023-11-14T22:00:00Z",
+						"values": {
+							"dewPoint": -1.4,
+							"humidity": 49.64,
+							"iceAccumulation": 0,
+							"precipitationIntensity": 0,
+							"precipitationProbability": 0,
+							"precipitationType": 0,
+							"rainAccumulation": 0,
+							"rainIntensity": 0,
+							"sleetAccumulation": 0,
+							"sleetIntensity": 0,
+							"snowAccumulation": 0,
+							"snowIntensity": 0,
+							"temperature": 8.59,
+							"temperatureApparent": 8.59,
+							"windDirection": 320.56,
+							"windGust": 9.21,
+							"windSpeed": 5.24
+						}
+					}
+				]
+			}
+		]
+	}
 }

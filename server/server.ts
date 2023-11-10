@@ -41,7 +41,7 @@ server.get('/api/v1/weather', async (req, res) => {
 })
 
 server.get('/api/v0/weather', async (req, res) => {
-  console.log('working up to here')
+  // console.log('working up to here')
   const mockFile = await mockWeatherFile()
   console.log(mockFile)
   res.json(mockFile)
