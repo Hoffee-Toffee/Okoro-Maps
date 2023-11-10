@@ -46,7 +46,7 @@ server.get('/api/v0/weather', async (req, res) => {
   console.log(mockFile)
   res.json(mockFile)
 })
-
+//get traffic API
 server.get('/api/v1/traffic', async (req, res) => {
   console.log('Traffic active')
   const trafficToken = process.env.TRAFFIC_KEY
@@ -54,7 +54,7 @@ server.get('/api/v1/traffic', async (req, res) => {
   res.json(response.body)
 })
 server.use(express.urlencoded({ extended: true }));
-
+//select locations
 server.post('/api/v1/traffic',async (req,res) =>{
   const trafficToken = process.env.TRAFFIC_KEY
   const coordinates=req.body.coordinates
