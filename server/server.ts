@@ -46,6 +46,21 @@ server.get('/api/v0/weather', async (req, res) => {
   console.log(mockFile)
   res.json(mockFile)
 })
+//get traffic API
+server.get('/api/v1/traffic', async (req, res) => {
+  console.log('Traffic active')
+  const trafficToken = process.env.TRAFFIC_KEY
+  const response = await request.get(`https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=42.8984%2C71.3980&unit=KMPH&openLr=false&key=${trafficToken}`)
+  res.json(response.body)
+})
+server.use(express.urlencoded({ extended: true }));
+//select locations
+server.post('/api/v1/traffic',async (req,res) =>{
+  const trafficToken = process.env.TRAFFIC_KEY
+  const coordinates=req.body.coordinates
+  const response = await request.get(`https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=${coordinates.join(',')}&unit=KMPH&openLr=false&key=${trafficToken}`)
+  res.json(response.body)
+})
 
 async function mockWeatherFile() {
   let data = ''
