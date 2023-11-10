@@ -13,9 +13,9 @@ function HomePage() {
   useEffect(() => {
     async function updateData() {
       try {
-        const weather = await getLatestWeather()
+        //const weather = await getLatestWeather()
         const traffic = await getTraffic([42.8984, 71.398])
-        // const weather = await getRealLatestWeather([42.8984, 71.398])
+        const weather = await getRealLatestWeather([42.8984, 71.398])
 
         setData({
           weather,
@@ -32,28 +32,54 @@ function HomePage() {
   const { weather, traffic } = data
 
   console.log(weather.temperature, traffic.currentSpeed)
+  const displayTraffic = JSON.stringify(traffic)
   return (
     <>
-      <p>{JSON.stringify(traffic)}</p>
-      <ul>
-        <li>{weather.dewPoint} : Dew Point </li>
-        <li>{weather.humidity} : Humidity </li>
-        <li>{weather.iceAccumulation} : Ice Accumulation </li>
-        <li>{weather.precipitationIntensity}: Precipitation Intensity</li>
-        <li>{weather.precipitationProbability} : Precipitation Probability</li>
-        <li>{weather.precipitationType}: Precipitation Type</li>
-        <li>{weather.rainAccumulation}: Rain Accumulation</li>
-        <li>{weather.rainIntensity}: Rain Intensity</li>
-        <li>{weather.snowIntensity}: Snow Intensity</li>
-        <li>{weather.sleetAccumulation} : Sleet Accumulation: </li>
-        <li>{weather.sleetIntensity}: Sleet Intensity</li>
-        <li>{weather.snowAccumulation}: Snow Accumulation</li>
-        <li>{weather.temperature}: Temperature</li>
-        <li>{weather.temperatureApparent}: Temperature Apparent:</li>
-        <li>{weather.windDirection} : Wind Direction</li>
-        <li>{weather.windGust} : Wind Gust</li>
-        <li>{weather.windSpeed} : Wind Speed </li>
-      </ul>
+      {/* */}
+      <h1>Location: </h1>
+      <div className="traffic">
+        <h3>Traffic Status</h3>
+        <ul>
+          <li>{JSON.stringify(traffic.currentSpeed)} : currentSpeed </li>
+
+          <li>{JSON.stringify(traffic.freeFlowSpeed)} : freeFlowSpeed </li>
+          <li>
+            {JSON.stringify(traffic.currentTravelTime)} : currentTravelTime
+          </li>
+          <li>
+            {JSON.stringify(traffic.freeFlowTravelTime)} : freeFlowTravelTime
+          </li>
+          <li>{JSON.stringify(traffic.confidence)} : confidence</li>
+          <li>{JSON.stringify(traffic.roadClosure)} : roadClosure</li>
+          {/* <li>{{JSON.stringify(traffic.frc)}: currentSpeed</li>
+          <li>{JSON.stringify(traffic.frc)}</li> */}
+        </ul>
+      </div>
+
+      <div className="weather">
+        <h3>Weather Condition</h3>
+        <ul>
+          <li>{weather.dewPoint} : Dew Point </li>
+          <li>{weather.humidity} : Humidity </li>
+          <li>{weather.iceAccumulation} : Ice Accumulation </li>
+          <li>{weather.precipitationIntensity}: Precipitation Intensity</li>
+          <li>
+            {weather.precipitationProbability} : Precipitation Probability
+          </li>
+          <li>{weather.precipitationType}: Precipitation Type</li>
+          <li>{weather.rainAccumulation}: Rain Accumulation</li>
+          <li>{weather.rainIntensity}: Rain Intensity</li>
+          <li>{weather.snowIntensity}: Snow Intensity</li>
+          <li>{weather.sleetAccumulation} : Sleet Accumulation: </li>
+          <li>{weather.sleetIntensity}: Sleet Intensity</li>
+          <li>{weather.snowAccumulation}: Snow Accumulation</li>
+          <li>{weather.temperature}: Temperature</li>
+          <li>{weather.temperatureApparent}: Temperature Apparent:</li>
+          <li>{weather.windDirection} : Wind Direction</li>
+          <li>{weather.windGust} : Wind Gust</li>
+          <li>{weather.windSpeed} : Wind Speed </li>
+        </ul>
+      </div>
     </>
   )
 }
