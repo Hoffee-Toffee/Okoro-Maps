@@ -34,26 +34,31 @@ function HomePage() {
   console.log(weather.temperature, traffic.currentSpeed)
   return (
     <>
-      <p>{JSON.stringify(traffic)}</p>
-      <ul>
-        <li>{weather.dewPoint} : Dew Point </li>
-        <li>{weather.humidity} : Humidity </li>
-        <li>{weather.iceAccumulation} : Ice Accumulation </li>
-        <li>{weather.precipitationIntensity}: Precipitation Intensity</li>
-        <li>{weather.precipitationProbability} : Precipitation Probability</li>
-        <li>{weather.precipitationType}: Precipitation Type</li>
-        <li>{weather.rainAccumulation}: Rain Accumulation</li>
-        <li>{weather.rainIntensity}: Rain Intensity</li>
-        <li>{weather.snowIntensity}: Snow Intensity</li>
-        <li>{weather.sleetAccumulation} : Sleet Accumulation: </li>
-        <li>{weather.sleetIntensity}: Sleet Intensity</li>
-        <li>{weather.snowAccumulation}: Snow Accumulation</li>
-        <li>{weather.temperature}: Temperature</li>
-        <li>{weather.temperatureApparent}: Temperature Apparent:</li>
-        <li>{weather.windDirection} : Wind Direction</li>
-        <li>{weather.windGust} : Wind Gust</li>
-        <li>{weather.windSpeed} : Wind Speed </li>
-      </ul>
+      {/* <p>{JSON.stringify(traffic)}</p> */}
+      <div className="traffic"></div>
+      <div className="weather">
+        <ul>
+          <li>{weather.dewPoint} : Dew Point </li>
+          <li>{weather.humidity} : Humidity </li>
+          <li>{weather.iceAccumulation} : Ice Accumulation </li>
+          <li>{weather.precipitationIntensity}: Precipitation Intensity</li>
+          <li>
+            {weather.precipitationProbability} : Precipitation Probability
+          </li>
+          <li>{weather.precipitationType}: Precipitation Type</li>
+          <li>{weather.rainAccumulation}: Rain Accumulation</li>
+          <li>{weather.rainIntensity}: Rain Intensity</li>
+          <li>{weather.snowIntensity}: Snow Intensity</li>
+          <li>{weather.sleetAccumulation} : Sleet Accumulation: </li>
+          <li>{weather.sleetIntensity}: Sleet Intensity</li>
+          <li>{weather.snowAccumulation}: Snow Accumulation</li>
+          <li>{weather.temperature}: Temperature</li>
+          <li>{weather.temperatureApparent}: Temperature Apparent:</li>
+          <li>{weather.windDirection} : Wind Direction</li>
+          <li>{weather.windGust} : Wind Gust</li>
+          <li>{weather.windSpeed} : Wind Speed </li>
+        </ul>
+      </div>
     </>
   )
 }
