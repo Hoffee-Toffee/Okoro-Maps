@@ -1,27 +1,41 @@
 import { useState, useEffect } from 'react'
-import { getLatestWeather } from '../apiClient'
-import { getWeather } from '../apiClient.ts'
+import {
+  getLatestWeather,
+  getWeather,
+  getTraffic,
+  getRealLatestWeather,
+} from '../apiClient'
 // import { Link } from 'react-router-dom'
 
 function HomePage() {
-  const [weather, setWeather] = useState({})
+  const [data, setData] = useState({ weather: {}, traffic: {} })
 
   useEffect(() => {
-    async function updateWeather() {
+    async function updateData() {
       try {
-        const newWeatherData = await getLatestWeather()
-        setWeather(newWeatherData)
+        // const weather = await getRealLatestWeather([42, 70])
+        // const traffic = await getTraffic([42, 70])
+        const traffic = await getTraffic([42.8984, 71.398])
+        const weather = await getLatestWeather()
+
+        setData({
+          weather,
+          traffic,
+        })
       } catch (err) {
         console.error(err.message)
       }
     }
 
-    updateWeather()
+    updateData()
   }, [])
 
-  console.log(weather.temperature)
+  const { weather, traffic } = data
+
+  console.log(weather.temperature, traffic.currentSpeed)
   return (
     <>
+      <p>{JSON.stringify(traffic)}</p>
       <ul>
         <li>{weather.dewPoint} : Dew Point </li>
         <li>{weather.humidity} : Humidity </li>

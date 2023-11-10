@@ -60,6 +60,7 @@ server.use(express.urlencoded({ extended: true }))
 server.post('/api/v1/traffic', async (req, res) => {
   const trafficToken = process.env.TRAFFIC_KEY
   const coordinates = req.body.coordinates
+
   const response = await request.get(
     `https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=${coordinates.join(
       ','
