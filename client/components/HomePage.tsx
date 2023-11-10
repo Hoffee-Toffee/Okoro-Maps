@@ -13,10 +13,9 @@ function HomePage() {
   useEffect(() => {
     async function updateData() {
       try {
-        // const weather = await getRealLatestWeather([42, 70])
-        // const traffic = await getTraffic([42, 70])
-        const traffic = await getTraffic([42.8984, 71.398])
         const weather = await getLatestWeather()
+        const traffic = await getTraffic([42.8984, 71.398])
+        // const weather = await getRealLatestWeather([42.8984, 71.398])
 
         setData({
           weather,
