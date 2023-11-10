@@ -50,16 +50,34 @@ server.get('/api/v0/weather', async (req, res) => {
 server.get('/api/v1/traffic', async (req, res) => {
   console.log('Traffic active')
   const trafficToken = process.env.TRAFFIC_KEY
-  const response = await request.get(`https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=42.8984%2C71.3980&unit=KMPH&openLr=false&key=${trafficToken}`)
+  const response = await request.get(
+    `https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=42.8984%2C71.3980&unit=KMPH&openLr=false&key=${trafficToken}`
+  )
   res.json(response.body)
 })
-server.use(express.urlencoded({ extended: true }));
+server.use(express.urlencoded({ extended: true }))
 //select locations
-server.post('/api/v1/traffic',async (req,res) =>{
+server.post('/api/v1/traffic', async (req, res) => {
   const trafficToken = process.env.TRAFFIC_KEY
-  const coordinates=req.body.coordinates
-  const response = await request.get(`https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=${coordinates.join(',')}&unit=KMPH&openLr=false&key=${trafficToken}`)
+  const coordinates = req.body.coordinates
+  const response = await request.get(
+    `https://api.tomtom.com/traffic/services/4/flowSegmentData/relative0/10/json?point=${coordinates.join(
+      ','
+    )}&unit=KMPH&openLr=false&key=${trafficToken}`
+  )
   res.json(response.body)
+})
+
+server.post('/api/v1/weather', async (req, res) => {
+  const weatherToken = process.env.WEATHER_SECURITY_KEY
+  const coordinates = req.body.coordinates
+  console.log('coordinates: ' + coordinates)
+  const response = await request.get(
+    `https://api.tomorrow.io/v4/timelines?location=${coordinates.join(
+      ','
+    )}&fields=temperature,temperatureApparent,dewPoint,humidity,windSpeed,windDirection,windGust,precipitationIntensity,rainIntensity,snowIntensity,sleetIntensity,precipitationProbability,precipitationType,rainAccumulation,snowAccumulation,sleetAccumulation,iceAccumulation&timesteps=1h&units=metric&apikey=${weatherToken}`
+  )
+  res.json(response.body.data)
 })
 
 async function mockWeatherFile() {
